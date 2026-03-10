@@ -4,7 +4,7 @@ rm -rf prebuilts/clang/host/linux-x86
 repo init --no-repo-verify --git-lfs -u https://github.com/ArrowOS-T/android_manifest.git -b arrow-13.1_ext -g default,-mips,-darwin,-notdefault
 /opt/crave/resync.sh || repo sync
 
-rm -fr git clone https://github.com/Iky76/device_xiaomi_mido.git -b arrow device/xiaomi/mido
+rm -fr device/xiaomi/mido
 
 git clone https://github.com/Iky76/device_xiaomi_mido.git -b arrow device/xiaomi/mido
 git clone https://github.com/Iky76/vendor_xiaomi_mido_A13.git -b android-13 vendor/xiaomi/mido
