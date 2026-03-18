@@ -1,5 +1,7 @@
 #!/bin/bash
 rm -rf prebuilts/clang/host/linux-x86
+rm -rf device/xiaomi/mido vendor/xiaomi/mido kernel/xiaomi/mido
+rm -rf hardware/qcom-caf/common hardware/qcom-caf/bt
 
 repo init --no-repo-verify --git-lfs -u https://github.com/ArrowOS-T/android_manifest.git -b arrow-13.1_ext -g default,-mips,-darwin,-notdefault
 /opt/crave/resync.sh || repo sync
