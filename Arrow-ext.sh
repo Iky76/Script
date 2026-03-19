@@ -10,7 +10,6 @@ git clone --depth=1 https://github.com/Iky76/device_xiaomi_mido.git -b arrow dev
 git clone --depth=1 https://github.com/Iky76/vendor_xiaomi_mido_A13.git -b android-13 vendor/xiaomi/mido
 git clone --depth=1 https://github.com/PixysOS-Devices/kernel_xiaomi_mido.git -b thirteen kernel/xiaomi/mido
 
-git clone https://github.com/LineageOS/android_hardware_qcom-caf_common.git -b lineage-20.0 hardware/qcom-caf/common
 git clone https://github.com/LineageOS/android_hardware_qcom_bt.git -b lineage-20.0-caf hardware/qcom-caf/bt
 
 export BUILD_USERNAME=Rizj
