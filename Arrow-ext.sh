@@ -14,6 +14,8 @@ git clone https://github.com/LineageOS/android_hardware_qcom_bt.git -b lineage-2
 
 export BUILD_USERNAME=Rizj
 export BUILD_HOSTNAME=DooPrjkt
+
+export PATH_OVERRIDE_SOONG=true
 export SOONG_ALLOW_MISSING_DEPENDENCIES=true
 
 . build/envsetup.sh
