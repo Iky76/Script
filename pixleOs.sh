@@ -1,5 +1,6 @@
 #!/bin/bash
 rm -rf prebuilts/clang/host/linux-x86
+rm -rf device/advan
 
 repo init --no-repo-verify --git-lfs -u https://github.com/PixelOS-AOSP/android_manifest.git -b sixteen-qpr2 -g default,-mips,-darwin,-notdefault
 /opt/crave/resync.sh || repo sync
