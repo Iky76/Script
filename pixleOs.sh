@@ -11,7 +11,7 @@ git clone --depth=1 https://github.com/Iky76/proprietary_vendor_advan_X1.git -b 
 git clone --depth=1 https://github.com/G100-X1/android_device_advan_X1-kernel.git -b lineage-23.1 device/advan/X1-kernel
 
 git clone https://github.com/MillenniumOSS/android_device_mediatek_sepolicy_vndr.git -b sixteen-qpr2-rebase device/mediatek/sepolicy_vndr
-git clone https://github.com/MillenniumOSS/android_hardware_mediatek.git -b sixteen hardware/mediatek
+https://github.com/G100-X1/hardware_mediatek.git -b lineage-23.1 hardware/mediatek
 git clone https://github.com/G100-X1/android_vendor_mediatek_ims.git -b lineage-23.1 vendor/mediatek/ims
 git clone https://github.com/G100-X1/android_vendor_sony_dolby.git -b sixteen-redesign vendor/sony/dolby
 
