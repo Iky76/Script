@@ -1,7 +1,7 @@
 #!/bin/bash
 rm -rf prebuilts/clang/host/linux-x86
-rm -rf device/Advan
-rm -fr vendor/Advan
+rm -rf device/advan
+rm -fr vendor/advan
 
 repo init --no-repo-verify --git-lfs -u https://github.com/AxionAOSP/android.git -b lineage-23.2 -g default,-mips,-darwin,-notdefault
 /opt/crave/resync.sh || repo sync
