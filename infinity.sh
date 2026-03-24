@@ -18,7 +18,7 @@ git clone https://github.com/G100-X1/android_vendor_sony_dolby.git -b sixteen-re
 export BUILD_USERNAME=Rizj
 export BUILD_HOSTNAME=DooPrjkt
 
-gk -s
+repo sync
 
 . build/envsetup.sh
 lunch infinity_X1-user
