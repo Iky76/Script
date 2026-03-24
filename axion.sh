@@ -23,4 +23,4 @@ gk -s
 . build/envsetup.sh
 axion lineage_X1 gms pico
 axionSync
-ax -br -j16
+ax -b
