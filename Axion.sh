@@ -6,7 +6,7 @@ rm -fr vendor/Advan
 repo init --no-repo-verify --git-lfs -u https://github.com/AxionAOSP/android.git -b lineage-23.2 -g default,-mips,-darwin,-notdefault
 /opt/crave/resync.sh || repo sync
 
-git clone --depth=1 https://github.com/Iky76/android_device_advan_X1.git -b axion-wip device/advan/X1
+git clone --depth=1 https://github.com/Iky76/android_device_advan_X1.git -b axion device/advan/X1
 git clone --depth=1 https://github.com/G100-X1/android_vendor_advan_X1.git -b lineage-23.2 vendor/advan/X1
 git clone --depth=1 https://github.com/G100-X1/android_device_advan_X1-kernel.git -b lineage-23.1 device/advan/X1-kernel
 
