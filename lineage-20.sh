@@ -1,5 +1,6 @@
 #!/bin/bash
 rm -rf prebuilts/clang/host/linux-x86
+rm -rf device/xiaomi/mido
 
 repo init --no-repo-verify --git-lfs -u https://github.com/LineageOS/android.git -b lineage-20.0 -g default,-mips,-darwin,-notdefault
 /opt/crave/resync.sh || repo sync
