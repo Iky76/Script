@@ -15,5 +15,5 @@ export BUILD_USERNAME=mambo
 export BUILD_HOSTNAME=crave
 
 . build/envsetup.sh
-lunch lineage_mido-userdebug
+breakfast mido
 m bacon
