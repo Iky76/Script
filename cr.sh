@@ -4,7 +4,7 @@ rm -rf device/xiaomi/mido
 rm -rf vendor/xiaomi/mido
 rm -rf kernel/xiaomi/mido
 
-repo init --no-repo-verify --git-lfs -u https://github.com/LineageOS/android.git -b lineage-20.0 -g default,-mips,-darwin,-notdefault
+repo init --no-repo-verify --git-lfs -u repo init -u https://github.com/crDroid-Resurrected/android.git -b 13.0 -g default,-mips,-darwin,-notdefault
 /opt/crave/resync.sh || repo sync
 
 git clone --depth=1 https://github.com/Iky76/device_xiaomi_mido.git -b lineage-20.0 device/xiaomi/mido
